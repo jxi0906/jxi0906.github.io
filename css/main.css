@@ -69,7 +69,7 @@ body {
 /******** Header ********/
 
 header {
-    background-color: #333;
+    background-color: #2A61CF;
     box-sizing: border-box;
     height: 100%;
     padding-top: 15%;
@@ -108,17 +108,12 @@ header {
 }
 
 #java {
-    background-color: #00B233;
+    background-color: #ff80bf;
 }
 
 #webApp {
-    background-color: #2A61CF;
+    background-color: #88cc00;
 }
-
-#mobile {
-    background-color: #EC971F;
-}
-
 
 /******** Footer ********/
 
@@ -150,7 +145,7 @@ footer {
     margin-top: 20%;
 }
 
-#about-page-main {
+#me-page-main {
     color: #333;
     text-shadow: none;
     font-size: 120%;
