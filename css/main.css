@@ -222,6 +222,11 @@ footer {
     }
 }
 
+Inline style{
+	left: 0px;
+    top: 220px;
+}
+
 /*media screen*/
 .square, .squarehome {
     position: absolute;
@@ -229,7 +234,37 @@ footer {
     height: 100px;
     overflow: hidden;
     border: 1px solid #666;
+		border-top-width: 1px;
+		border-right-width: 1px;
+		border-bottom-width: 1px;
+		border-left-width: 1px;
+		border-top-style: solid;
+		border-right-style: solid;
+		border-bottom-style: solid;
+		border-left-style: solid;
+		border-top-color: #666;
+		border-right-color: #666;
+		border-bottom-color: #666;
+		border-left-color: #666;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
