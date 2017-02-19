@@ -149,7 +149,7 @@
                 <address>
                     <p><strong>Fred(Junhui) Xie</strong></p>
                     <p>Mississauga, ON, Canada</p>
-                    <a href="mailto:jxi1208@gmail.com">jxi1208@gmail.com</a>
+                    <p>647-871-1208 | <a href="mailto:jxi1208@gmail.com">jxi1208@gmail.com</a></p>
                 </address>
             </div>
         </footer>
@@ -167,17 +167,17 @@
         
         <!-- scroll jquery-->
         <script type="text/javascript">
-                $(document).ready(function() 
+            $(document).ready(function() 
+            {
+                // smooth scroll
+                $('#toJava,#toWebApp,#toTop').click(function(event) 
                 {
-                        // smooth scroll
-                        $('#toJava,#toWebApp,#toMobile,#toTop').click(function(event) 
-                        {
-                                var id = $(this).attr("href");
-                                var target = $(id).offset().top;
-                                $('html, body').animate({scrollTop:target}, 500);
-                                event.preventDefault();
-                        });
-                });                
+                    var id = $(this).attr("href");
+                    var target = $(id).offset().top;
+                    $('html, body').animate({scrollTop:target}, 500);
+                    event.preventDefault();
+                });
+            });                
         </script>
     </body>
 </html>

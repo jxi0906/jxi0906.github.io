@@ -144,14 +144,14 @@ footer {
 .banner .container {
     margin-top: 20%;
 }
-/*
+
 #me-page-main {
     color: #333;
     text-shadow: none;
     font-size: 120%;
     padding-top: 5%;
     padding-bottom: 5%;
-}*/
+}
 
 #contact-page-main {
     padding-top: 10%;
@@ -216,43 +216,3 @@ footer {
         text-align: left;
     }
 }
-/*
-@keyframes opacity {
-  0% {
-   opacity: 0.1;
- }
-  25% {
-    opacity:0.25;
-  }
-  50% {
-    opacity:0.50;
-  }
-  75% {
-    opacity:0.75;
-  }
-  100% {
-    opacity:1;
-  }
-}
-@-webkit-keyframes opacity {
-  0% {
-   opacity: 0.75;
- }
-  25% {
-    opacity:0.50;
-  }
-  50% {
-    opacity:0.25;
-  }
-  75% {
-    opacity:0.1;
-  }
-  100% {
-    opacity:1;
-  }
-}
-.opacity {
-    -webkit-animation:opacity 2.5s linear 1s infinite alternate;
-    animation:opacity 2.5s linear 1s infinite alternate;
-}
-*/
