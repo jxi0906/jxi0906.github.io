@@ -194,7 +194,7 @@ footer {
     }
     
     .banner {
-        height: 66%;
+        height: 68%;
     }
     
     .me-page-banner {
@@ -220,4 +220,16 @@ footer {
     .dropdown-menu {
         text-align: left;
     }
+}
+
+/*media screen*/
+.square, .squarehome {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border: 1px solid #666;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
