@@ -108,7 +108,7 @@ header {
 }
 
 #java {
-    background-color: #ffa64d;
+    background-color: white;
 }
 
 #webApp {
@@ -220,11 +220,6 @@ footer {
     .dropdown-menu {
         text-align: left;
     }
-}
-
-Inline style{
-	left: 0px;
-    top: 220px;
 }
 
 /*media screen*/
