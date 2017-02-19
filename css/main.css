@@ -159,6 +159,10 @@ footer {
     min-height: 40%;
 }
 
+#fred {
+	color: black;
+}
+
 .contact-icon img { 
     margin-right: 2%;
     margin-left: 2%;
