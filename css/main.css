@@ -179,7 +179,7 @@ footer {
 
 /******** media query ********/
 
-@media (min-width: 770px) {
+@media (min-width: 800px) {
     
     h1 {
         font-size: 400%;
@@ -194,7 +194,7 @@ footer {
     }
     
     .banner {
-        height: 50%;
+        height: 66%;
     }
     
     .me-page-banner {
