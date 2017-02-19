@@ -161,6 +161,7 @@ footer {
 
 #fred {
 	color: black;
+	text-shadow: none;
 }
 
 .contact-icon img { 
@@ -178,7 +179,7 @@ footer {
 
 /******** media query ********/
 
-@media (min-width: 800px) {
+@media (min-width: 790px) {
     
     h1 {
         font-size: 400%;
