@@ -225,8 +225,8 @@ footer {
 /*media screen*/
 .square, .squarehome {
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     overflow: hidden;
     border: 1px solid #666;
 		border-top-width: 1px;
