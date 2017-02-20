@@ -167,6 +167,7 @@ footer {
 #pong {
 	color: black;
 	text-shadow: none;
+	text-align: left;
 }
 
 .contact-icon img { 
