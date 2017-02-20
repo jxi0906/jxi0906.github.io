@@ -223,7 +223,7 @@ footer {
 }
 
 /*media screen*/
-.square, .squarehome {
+.square {
     position: absolute;
     width: 100px;
     height: 100px;
