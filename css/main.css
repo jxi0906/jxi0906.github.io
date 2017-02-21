@@ -179,6 +179,11 @@ footer {
 	text-shadow: none;
 }
 
+#office {
+	color: black;
+	text-shadow: none;
+}
+
 #javaPro {
 	position: relative;
 	bottom: 20px;
@@ -232,6 +237,10 @@ footer {
 	}
 	
 	.browser-page-banner {
+		background-image: url('../images/javaApp.jpg');
+	}
+	
+	.office-page-banner {
 		background-image: url('../images/javaApp.jpg');
 	}
 	
