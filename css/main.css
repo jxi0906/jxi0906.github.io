@@ -194,6 +194,11 @@ footer {
 	text-shadow: none;
 }
 
+#express {
+	color: black;
+	text-shadow: none;
+}
+
 #javaPro {
 	position: relative;
 	bottom: 20px;
@@ -259,6 +264,10 @@ footer {
 	}
 	
 	.club-page-banner {
+		background-image: url('../images/javaApp.jpg');
+	}
+	
+	.express-page-banner {
 		background-image: url('../images/javaApp.jpg');
 	}
 	
