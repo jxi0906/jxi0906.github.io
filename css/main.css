@@ -169,6 +169,11 @@ footer {
 	text-shadow: none;
 }
 
+#clock {
+	color: black;
+	text-shadow: none;
+}
+
 #javaPro {
 	position: relative;
 	bottom: 20px;
