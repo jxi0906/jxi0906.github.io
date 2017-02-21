@@ -184,6 +184,11 @@ footer {
 	text-shadow: none;
 }
 
+#list {
+	color: black;
+	text-shadow: none;
+}
+
 #javaPro {
 	position: relative;
 	bottom: 20px;
@@ -241,6 +246,10 @@ footer {
 	}
 	
 	.office-page-banner {
+		background-image: url('../images/javaApp.jpg');
+	}
+	
+	.list-page-banner {
 		background-image: url('../images/javaApp.jpg');
 	}
 	
