@@ -189,6 +189,11 @@ footer {
 	text-shadow: none;
 }
 
+#club {
+	color: black;
+	text-shadow: none;
+}
+
 #javaPro {
 	position: relative;
 	bottom: 20px;
@@ -250,6 +255,10 @@ footer {
 	}
 	
 	.list-page-banner {
+		background-image: url('../images/javaApp.jpg');
+	}
+	
+	.club-page-banner {
 		background-image: url('../images/javaApp.jpg');
 	}
 	

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Java Club</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="icon" type="image/jpg" href="./images/xie.jpg">
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="css/main.css" rel="stylesheet" media="screen">
+    </head>
+    <body>
+        <!-- page banner -->
+        <div class="banner club-page-banner">
+            <a href="../index.html" style="color:black; font:25px;">&larr;Back</a>
+        </div>
+        
+        <!-- main -->
+        <div class="container text-center" id="club">
+            <h1>Java Club Application</h1><br>
+			<p style="text-align:left;">Java Club is constructed as a skeletal structure of a login-based web application using MVC paradigm, Java Servlet, JSP with Expression Language and JavaBean. JSP(JavaServer Pages) technology allows programmer to easily create web content that has both static and dynamic components. MVC architecture is a common design framework for GUI applications, and it is to divide an application into 3 separate components: Model, View and Controller in order to minimize dependencies between them.<br><br>
+			<img src="https://github.com/jxi0906/Java-Club/raw/master/MVC.JPG" alt="jpg file" style="max-width:100%;"><br><br>
+			Additionally, this application is an online social network club to share programming knowledge and job opportunities among members. It contains a home page to allow to login to the member's main page, or to go to registration form page to sign up "Java Club". When a user registers the signup form successfully, the user's information will be stored in database. When a registered member logins successfully, the user is redirected to the member's main page. Main page will show a greeting message, the member's profile and a logout link.<br>
+			The application would look like the following.</p><br>
+			<p style="text-align:left;"><b>index.html</b> file as home page of Java Club has a heading and a form to allow to login with user ID and password. "Log in" button requests Login servet, and "Sign up here" link requests Register servlet.</p>
+			<img src="https://github.com/jxi0906/Java-Club/raw/master/club1.JPG" alt="jpg file" style="max-width:100%;"><br><br>
+			<p style="text-align:left;"><b>Login.java</b> servlet and <b>Login.jsp</b> allow user to login to the main page. When the login is failed from index.html, the error message will be shown. If a matched user is found in the database, the page will be redirected to MainPage servlet.</p>
+			<img src="https://github.com/jxi0906/Java-Club/raw/master/login1.JPG" alt="jpg file" style="max-width:100%;"><br><br>
+			<p style="text-align:left;"><b>Register.java</b> servlet and <b>register.jsp</b> create the signup form. "Sign up" button will trigger Register servlet to take 6 request parameters: user ID, password, re-enter password, first name, last name and email address and validate them using <b>UserDatabase.java</b>, then add to the database. If an input is invalid, the signup form will be re-generated. If a user is successfully added, the page will forward to <b>registerResult.jsp</b> to display a confirmation message.</p>
+			<img src="https://github.com/jxi0906/Java-Club/raw/master/register.JPG" alt="jpg file" style="max-width:100%;"><br><br>
+			<img src="https://github.com/jxi0906/Java-Club/raw/master/register1.JPG" alt="jpg file" style="max-width:100%;"><br><br>
+			<p style="text-align:left;"><b>registerResult.jsp</b> notify user to know the registration was successful or failed. There is a link to home page.</p>
+			<img src="https://github.com/jxi0906/Java-Club/raw/master/register2.JPG" alt="jpg file" style="max-width:100%;"><br><br>
+			<p style="text-align:left;"><b>MainPage.java</b> servlet and <b>mainPage.jsp</b> generate the user's main page containing the user main information. There is a link to logout.jsp.</p>
+			<img src="https://github.com/jxi0906/Java-Club/raw/master/main.JPG" alt="jpg file" style="max-width:100%;"><br><br>
+			<p style="text-align:left;"><b>logout.jsp</b> closes the current session and unbind all attributes. There is a "goodbye" message and a link to <b>index.html</b>.</p>
+			<img src="https://github.com/jxi0906/Java-Club/raw/master/logout.JPG" alt="jpg file" style="max-width:100%;"><br><br>
+        </div>
+             
+        <!-- footer -->
+        <footer class="container-fluid">
+            <div class="col-md-12">
+                <address>
+                    <p><strong>Fred(Junhui) Xie</strong></p>
+                    <p>Mississauga, ON, Canada</p>
+                    <p>647-871-1208 | <a href="mailto:jxi1208@gmail.com">jxi1208@gmail.com</a></p>
+                </address>
+            </div>
+        </footer>
+        
+        <script src="./js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
